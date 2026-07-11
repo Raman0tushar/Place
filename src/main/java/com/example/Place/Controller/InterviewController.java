@@ -9,7 +9,10 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/interview")
-@CrossOrigin(origins = "https://divyanshutiwari02.github.io/")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://divyanshutiwari02.github.io"
+})
 public class InterviewController {
 
     private final JwtUtil jwtUtil;
