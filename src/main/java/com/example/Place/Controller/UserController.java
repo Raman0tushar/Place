@@ -12,7 +12,10 @@ import java.util.HashMap;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "https://divyanshutiwari02.github.io")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://divyanshutiwari02.github.io"
+})
 public class UserController {
 
     @Autowired
