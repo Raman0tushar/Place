@@ -12,7 +12,7 @@ import java.util.HashMap;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "https://divyanshutiwari02.github.io/Placementor-FrontEnd/")
+@CrossOrigin(origins = "https://divyanshutiwari02.github.io")
 public class UserController {
 
     @Autowired
