@@ -7,8 +7,8 @@
 
 The core RESTful backend service for **PlaceMentor**, designed to handle user authentication, preparation metrics, and mock assessment data. Built with a scalable architecture to support high-performance client applications.
 
-**🚀 Live DEPLOY:** `https://placementor-front-end.vercel.app/`
-**🚀 Live API Base URL:** `https://place-d7ee.onrender.com/api`
+**🚀 Live DEPLOY:** `[https://placementor-front-end.vercel.app/](https://placementor-front-end.vercel.app/)`
+**🚀 Live API Base URL:** `[https://place-d7ee.onrender.com/api](https://place-d7ee.onrender.com/api)`
 
 ---
 
