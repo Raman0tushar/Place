@@ -19,7 +19,10 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/resume")
-@CrossOrigin("*")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://placementor-front-end.vercel.app"
+})
 public class ResumeController {
 
     private final RestTemplate restTemplate = new RestTemplate();
