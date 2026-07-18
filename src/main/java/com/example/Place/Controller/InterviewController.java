@@ -11,7 +11,7 @@ import java.util.Map;
 @RequestMapping("/api/interview")
 @CrossOrigin(origins = {
     "http://localhost:5173",
-    "https://divyanshutiwari02.github.io"
+    "https://placementor-front-end.vercel.app/"
 })
 public class InterviewController {
 
